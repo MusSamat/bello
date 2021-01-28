@@ -1,0 +1,438 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    position: relative;
+    width: 1084px;
+    margin: 0 auto;
+}
+
+header {
+    position: sticky;
+}
+
+header .header_div {
+    padding: 0 60px;
+    height: 105px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    height: 27px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 35px;
+    color: #F46752;
+}
+
+header .header_div .navbar_items1 {
+    display: flex;
+    gap: 15px;
+}
+
+header .header_div .navbar_items2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 39px;
+}
+
+header .header_div nav a{
+    padding-left: 35px;
+    gap: 20px;
+    text-decoration: none;
+    height: 20px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #1D253C;
+}
+
+header .header_div nav a:hover {
+    color: #007188;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+header .header_div .login {
+    height: 20px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #1D253C;
+    cursor: pointer;
+}
+
+header .header_div .btn {
+    width: 161px;
+    height: 44px;
+    border: 1px solid rgba(29, 37, 60, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #1D253C;
+}
+
+.main1 {
+    min-height: 775px;
+}
+
+.main1 .main1_img {
+    position: absolute;
+    top: 17px;
+    right: -100px;
+    z-index: -1;
+}
+
+.main1 .main1_items {
+    padding-top: 294px;
+    width: 463px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.main1 .main1_items .title {
+    height: 27px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #F46752;
+}
+
+.main1 .main1_items .title2 {
+    height: 136px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 68px;
+    text-transform: capitalize;
+    color: #1D253C;
+}
+
+
+.main1 .main1_items .main1_text {
+    margin-top: 25px;
+    width: 411px;
+    height: 66px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    color: #5A6482;
+}
+
+.main1 .main1_button {
+    margin-top: 40px;
+    width: 220px;
+    height: 61px;
+    background: #F46752;
+    border: 1px solid rgba(29, 37, 60, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.main2 {
+    min-height: 645px;
+    background: #F9F5F2;
+}
+
+.main2 .main2_box {
+    display: flex;
+    flex-direction: row;
+    gap: 144px;
+}
+
+.main2 .main2_box .chart {
+    margin-top: 85px;
+    width: 500px;
+    height: 436px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.04);
+}
+
+.main2 .main2_box .chart_img {
+    padding: 32px 43px;
+    width: 414px;
+    height: 373px;
+    left: 43px;
+    top: 31px;
+}
+
+.main2 .main2_box .chart .img_title {
+    padding: 20px;
+    height: 20px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #5A6482;
+}
+
+
+.main2 .main2_box .main2_items {
+    margin-top: 136px;
+}
+
+.main2 .main2_box .title {
+    height: 17px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #F46752;
+}
+
+.main2 .main2_box .title2 {
+    margin-top: 26px;
+    height: 104px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 52px;
+    color: #1D253C;
+}
+
+.main2 .main2_box .main2_text {
+    margin-top: 19px;
+    width: 400px;
+    height: 90px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 30px;
+    color: #5A6482;
+}
+
+
+.main2 .main2_box .get_price {
+    padding-right: 10px;
+    margin-top: 20px;
+    height: 22px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #126F86;
+    cursor: pointer;
+}
+
+.main3 {
+    min-height: 822px;
+}
+
+.main3 .main3_box {
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+}
+
+
+.main3 .main3_box .main3_items .m3title {
+    margin-top: 275px;
+    height: 17px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #F46752;
+}
+
+.main3 .main3_box .main3_items .m3title2  {
+    margin-top: 27px;
+    height: 52px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    color: #1D253C;
+}
+
+.main3 .main3_box .main3_items .m3text {
+    margin-top: 35px;
+    height: 90px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 30px;
+    color: #5A6482;
+}
+
+.main3 .main3_box .main3_items .get_price3 {
+    height: 22px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #126F86;
+    cursor: pointer;
+}
+
+.main3 .main3_box .m3_img {
+    margin-top: 148px;
+    height: 510px;
+    width: 542px;
+    z-index: -1;
+}
+
+.main3 .main3_box .m3_box  {
+    width: 326px;
+    height: 67px;
+    background: #FFFFFF;
+    box-shadow: 3px 4px 34px rgba(66, 71, 77, 0.11);
+    border-radius: 5px;
+    text-align: center;
+}
+.main3 .main3_box .m3_box {
+    position: absolute;
+    right: 250px;
+    top: 600px;
+    padding:20px;
+    text-align: center;
+}
+.main3 .zont {
+    position: absolute;
+    right: 30%;
+    bottom: -50%;
+}
+
+.main4 {
+    height: 780px;
+    background: #F8F8F8;
+}
+
+.main4 .main4_items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main4 .main4_items .main4_box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main4 .main4_items .main4_title1{
+    margin-top: 91px;
+    height: 17px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F46752;
+}
+.main4 .main4_items .main4_title2{
+    margin-top: 30px;
+    height: 52px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 52px;
+    text-align: center;
+    color: #1D253C;
+}
+.main4 .main4_items .main4_text {
+    margin-top: 227px;
+    position: absolute;
+    height: 60px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 30px;
+    text-align: center;
+    color: #5A6482;
+}
+
+
+.main4 .main4_items .main4_box2 {
+    margin-top: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main4 .main4_items .main4_box2 .rec {
+    height: 310px;
+    width: 320px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main4 .main4_items .main4_box2 .main4_title21 {
+    padding-top: 20px;
+    height: 26px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    color: #1D253C;
+}
+.main4 .main4_items .main4_box2 .main4_text21 {
+    padding: 20px;
+    height: 52px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 26px;
+    text-align: center;
+    color: #5A6482;
+}
+
+.main4 .main4_items .main4_box2 .tetre {
+    margin-bottom: 20px;
+}
+
+.main4 .dog {
+    position: absolute;
+    right: 0%;
+}
+
+
+
+
+
+
